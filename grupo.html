@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="grupo.css">
+    <style>
+        
+    </style>
+</head>
+
+<!-- 
+    - imagem dos integrantes
+    - função de cada integrante
+    - nome 
+    - turma
+
+    -- Ideia, fazer um livrinho para a mostra dos integrantes, facilitando assim o meu trabalho k
+-->
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="jogo.html">Jogo</a>
+        <a class="active" href="grupo.html">Grupo</a>
+    </div>
+
+        <p> Nossa empresa é formada por 5 alunos do segundo ano do ensino médio SESI SENAI, que buscam passar de ano
+            e prover divertimento e aprendizado aos jogadores do nosso jogo. Nossa empresa tem como nome Tiltados Inc. e ganhou o mesmo por conta de uma equipe de gincana,
+        além de ser um nome baseado na equipe da gincana, todos nós temos um lado tiltado, o que facilitou a escolha do nosso nome.
+    </p>
+
+    <div class="pagina">
+        
+        <div id="ANNA">
+            <div class="anna"></div>
+            <button type="button" onclick="prox1()"> <i class="gg-push-chevron-right-o"></i> </button>
+        </div>
+
+        <div class="hide" id="GREG">
+            <div class="greg"></div>
+            <button type="button" onclick="ante2()"> <i class="gg-push-chevron-left-o"></i> </button>
+            <button type="button" onclick="prox2()"> <i class="gg-push-chevron-right-o"></i> </button>
+        </div>
+
+        <div class="hide" id="LAURA">
+            <div class="laura"></div>
+            <button type="button" onclick="ante3()"> <i class="gg-push-chevron-left-o"></i>  </button>
+            <button type="button" onclick="prox3()"> <i class="gg-push-chevron-right-o"></i> </button>
+        </div>
+
+        <div class="hide" id="MARCIA">
+            <div class="marcia"></div>
+            <button type="button" onclick="ante4()"> <i class="gg-push-chevron-left-o"></i>  </button>
+            <button type="button" onclick="prox4()"> <i class="gg-push-chevron-right-o"></i> </button>
+        </div>
+
+        <div class="hide" id="SANTI">
+            <div class="santi"></div>
+            <button type="button" onclick="ante5()"> <i class="gg-push-chevron-left-o"></i>  </button>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+const prox1 = function(){
+
+    var anna = document.getElementById("ANNA");
+        anna.classList.add("hide"); //adiciona a classe hide q faz esconder
+
+        var greg = document.getElementById("GREG");
+        greg.classList.remove("hide"); //removeu a classe hide, aparecendo
+}
+
+const prox2 = function (){
+
+    var greg = document.getElementById("GREG");
+    greg.classList.add("hide"); //adicionou a classe hide, escondendo
+
+    var laura = document.getElementById("LAURA");
+    laura.classList.remove("hide"); //removeu a classe hide, aparecendo
+}
+
+const ante2 = function (){
+
+    var greg = document.getElementById("GREG");
+    greg.classList.add("hide"); //adicionou a classe hide, escondendo
+
+    var anna = document.getElementById("ANNA");
+    anna.classList.remove("hide"); //removeu a classe hide, aparecendo
+}
+
+const prox3 = function (){
+
+    var laura = document.getElementById("LAURA");
+    laura.classList.add("hide"); //adicionou a classe hide, escondendo
+
+    var marcia = document.getElementById("MARCIA");
+    marcia.classList.remove("hide"); //removeu a classe hide, aparecendo
+}
+
+const ante3 = function (){
+
+    var laura = document.getElementById("LAURA");
+    laura.classList.add("hide"); //adicionou a classe hide, escondendo
+
+    var greg = document.getElementById("GREG");
+    greg.classList.remove("hide"); //removeu a classe hide, aparecendo
+}
+
+const prox4 = function (){
+
+    var marcia = document.getElementById("MARCIA");
+    marcia.classList.add("hide"); //adicionou a classe hide, escondendo
+
+    var santi = document.getElementById("SANTI");
+    santi.classList.remove("hide"); //removeu a classe hide, aparecendo
+}
+
+const ante4 = function (){
+
+var marcia = document.getElementById("MARCIA");
+marcia.classList.add("hide"); //adicionou a classe hide, escondendo
+
+var laura = document.getElementById("LAURA");
+laura.classList.remove("hide"); //removeu a classe hide, aparecendo
+}
+
+const ante5 = function (){
+
+var santi = document.getElementById("SANTI");
+santi.classList.add("hide"); //adicionou a classe hide, escondendo
+
+var marcia = document.getElementById("MARCIA");
+marcia.classList.remove("hide"); //removeu a classe hide, aparecendo
+}
+
+</script>
+</body>
+</html>

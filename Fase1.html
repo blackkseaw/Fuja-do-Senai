@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASE-1</title>
+    <link rel="stylesheet" href="Fase1/fase1style.css">
+    <link rel="stylesheet" href="css.css">
+    <link href='https://css.gg/home-alt.css' rel='stylesheet'>
+    <audio id="demo" src="img/TrilhaSonora_-_Fuja_do_Senai.mpeg" autoplay="True" Loop="True"></audio>
+</head>
+
+
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">HOME</a>
+        <a href="Fase1.html">Jogo</a>
+        <a href="grupo.html">Grupo</a>
+    </div>
+
+    <div class="flex-container">
+
+        <div class="vidas">
+            <div class="pontos">
+                <label>Pontos</label>
+                <input type="number" id="pts" placeholder="0" readonly="">
+            </div>
+
+            <div class="life">
+                <label>Vidas</label>
+                <input type="number" id="vida" placeholder="3" readonly="">
+                <!--<img class="coracao" src="img/.gif" width="31px" height="31px">-->
+            </div>
+        </div>
+        <div class="musica">
+            <audio id="demo" src="audio/TrilhaSonora.mp3" type="audio/mpeg" autoplay="" loop="" controls=""></audio>
+        </div>
+    </div>
+
+    <div class="meio">
+        <div class="contorno">
+
+            <div class="pergunta">
+                <div id="divv">
+                    <label>Resolva o seguinte exercício: (+10) . (-3)</label><br><br>
+                    <button type="button" onclick="verificar('errado')"><a>13</a></button>
+                    <button type="button" onclick="verificar('certo')"><a>-30</a></button>
+                </div>
+                <div class="hide" id="divv2">
+                    <label>Qual para a operação de divisão: 120 3 =</label><br><br>
+                    <button type="button" onclick="verificar2('certo')"><a>40</a></button>
+                    <button type="button" onclick="verificar2('errado')"><a>-40</a></button>
+                </div>
+                <div class="hide" id="divv3">
+                    <label>Um número foi somado a 7854 e o resultado obtido foi 20000. Que número é esse?</label><br><br>
+                    <button type="button" onclick="verificar3('certo')"><a>12146</a></button>
+                    <button type="button" onclick="verificar3('errado')"><a>1006</a></button>
+                </div>
+                <div class="hide" id="divv4">
+                    <label>Resolva a expressão numérica: 30 ÷ [10 + (2 + 3)]:</label><br><br>
+                    <button type="button" onclick="verificar4('errado')"><a>4</a></button>
+                    <button type="button" onclick="verificar4('certo')"><a>2</a></button>
+                </div>
+
+            </div>
+
+            <div class="sala">
+                <div class="cenario">
+                    <img src="img/Fundo 1 (mais rápido).gif" width="550vh" height="250vh">
+                </div>
+                <img class="tiago" src="img/tiago.gif" alt="correno">
+                <img class="boneco" src="img/Personagem_correndo_certo.gif" alt="correno">
+                
+            </div>
+        </div>
+        <!--A LAURA É GUEI-->
+    </div>
+
+    <script src="Fase1/fase1script.js"></script>
+    
+
+
+
+</body></html>

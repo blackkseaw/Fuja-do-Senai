@@ -1,0 +1,207 @@
+body {
+    background-color: #ff9c63;
+    margin: 0;
+    background: rgb(255,234,102);
+    background: radial-gradient(circle, rgba(255,234,102,1) 0%, rgba(255,124,96,1) 100%);
+}
+
+
+input {
+    text-align: center;
+    outline: none;
+    color: rgb(34, 34, 34);
+    background-color: #ffffff;
+    transform: translate(60%, 2%);
+    border: hidden;
+    border-radius: 50px;
+    font-size: 200%;
+    width: 6vw;
+    height: 4vh;
+    margin-top: 0.3%;
+}
+
+::placeholder {
+    color: #222222;
+}
+
+div#divv, div#divv2, div#divv3, div#divv4 {
+    background-color: #f66318;
+    overflow: hidden;
+    width: 40vw;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+div.hide {
+    max-height: 0;
+    pointer-events: none; 
+  }
+
+div {
+      overflow: hidden;
+    }
+   
+button {
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+    width: 30%;
+    display: block;
+    font-family: "pixel";
+    font-weight: bold;
+    background-color: wheat;
+}
+
+label {
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+h5 {
+    font-size: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.sala {
+    margin: auto;
+    height: 35vh;
+    width: 40vw;
+    position: relative;
+}
+
+.cenario {
+    position: absolute;
+    z-index: -1;
+    border-top: 5px solid #f66318;
+}
+
+.boneco {
+    position: relative;
+    width: 15vw;
+    padding-left: 23vw;
+    padding-top: 13vh;
+    z-index: 3;
+}
+
+.tiago {
+    position: fixed;
+    width: 15vw;
+    padding-left: 4vw;
+    padding-top: 4vh;
+    z-index: 2;
+}
+
+.pergunta{
+    height: 18.9vh;
+    width: 40vw;
+    margin: auto;
+}
+
+.meio {
+    position: relative;
+    justify-content: center;
+}
+
+.contorno {
+    position: relative;
+    margin: auto;
+    margin-top: 7%;
+    width: 40vw;
+    border: 10px solid #f66318;
+}
+
+/* arrumar a div com todos os corações com um translate */
+
+.coracao {
+    transform: translate(12%, 10%);
+    width: 20vh;
+    height: 10vh;
+    position: relative;
+}
+
+.coracao3 {
+    position: relative;
+    transform: translate(0%, 2%);
+    float: left;
+    /* display: block; */
+}
+
+.coracao2 {
+    position: relative;
+    transform: translate(0%, 2%);
+    margin-left: 5px;
+    float: left;
+}
+
+.coracao1 {
+    position: relative;
+    transform: translate(0%, 2%);
+    margin-left: 5px;
+    z-index: 1;
+    float: left;
+}
+/* primeiro coração a ser perdido */
+.coracao0 {
+    position: relative;
+    transform: translate(-10%, 2%);
+    float: left;
+    z-index: -2;
+    /* display: block; */
+}
+/* segundo coração a ser perdido */
+.coracao1 {
+    position: relative;
+    transform: translate(0%, 2%);
+    margin-left: 5px;
+    z-index: -1;
+    float: left;
+}
+
+/* ultimo coração a ser perdido */
+.coracao2 {
+    position: relative;
+    transform: translate(0%, 2%);
+    margin-left: 5px;
+    z-index: -1;
+    float: left;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 20px #f66318;
+    height: 12vh;
+    background-color: #f66318;
+    align-items: center;
+  }
+
+  .musica {
+    margin-left: 53%;
+  }
+
+.pontos {
+    position: relative;
+    width: 50vh;
+    height: 40px;
+    align-items: center;
+}
+
+.life {
+    position: relative;
+    width: 50vh;
+    align-items: center;
+}
+
+.number {
+    font-family: "pixel";
+    font-weight: bold;
+    background-color: wheat;
+}
+
+/* pointer-events: none;  n deixa repetir*/
