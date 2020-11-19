@@ -60,4 +60,6 @@ html, body {
     color: #08141e;
   }
 
-
+input{
+  outline: none;
+}

@@ -20,14 +20,29 @@
             
             <div class="form-group form-titulo">
                 <h2>VOCÊ PERDEU</h2>
+                <h4>Sua pontuação foi de:</h4>
+                <h3>p o n t u a ç ã o</h3>
             </div>
 
             <div class="form-group">
-                <h4>Texto, blablabla, teste teste, aaaaaaaaa</h4>
+                <h4>Ah não! O assustador coordenador conseguiu te alcançar e te levou pra detenção na biblioteca! Parece que você não teve muita sorte dessa vez...TENTE NOVAMENTE!</h4>
+                
+            </div>
+
+            <div class="form-group">
+                <label>Nome:<br>
+                    <input type="text" id="nome" value="">
+                </label><br>
+                <br>
+                <label>Pontuação:<br>
+                    <input type="text" id="pontuacao" value="">
+                </label><br>
+                <br>
+                <button type="submit" value="Cadastrar" onclick="cadastrarDados()">Cadastrar</button>
             </div>
             
             <div class="form-group">
-                <button onclick="window.location.href = 'login.html'">Rank</button>
+                <button onclick="window.location.href = 'rank.html'">Rank</button>
                 <button onclick="window.location.href = 'index.html'">Menu</button>
                 
             </div>
@@ -36,6 +51,7 @@
     </div>
 
     <!--JS-->
+    <script src="./js/scriptPontuacao.js"></script>
 
 
 </body>

@@ -133,9 +133,6 @@ const verificar5 = function (alternativa) {
     var div5 = document.getElementById("divv5");
     div5.classList.add("hide"); //adicionou a classe hide, escondendo
 
-    var div6 = document.getElementById("divv6");
-    div6.classList.remove("hide"); //removeu a classe hide, aparecendo
-
     switch (alternativa) {
         case 'certo':
             resposta++
@@ -159,6 +156,3 @@ const verificar5 = function (alternativa) {
     }
     window.location.href = './fase2.html'
 }
-
-let pts1 = sessionStorage.getItem('pts1')
-    alert("soma pontos fase1" + pts1)
