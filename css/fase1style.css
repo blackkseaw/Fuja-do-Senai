@@ -24,10 +24,10 @@ input {
     color: #222222;
 }
 
-div#divv, div#divv2, div#divv3, div#divv4 {
+div#divvA, div#divv, div#divv2, div#divv3, div#divv4, div#divv5, div#divv02, div#divv6, div#divv7, div#divv8, div#divv9, div#divv10 {
     background-color: #816271;
     overflow: hidden;
-    height: 30vh;
+    height: 35vh;
     width: 60vw;
     margin: 0px auto;
     align-items: center;

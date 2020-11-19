@@ -2,6 +2,15 @@ var resposta = document.getElementById('pts');
 
 var vidas = document.getElementById('vida');
 
+function funfa(){
+
+    var divA = document.getElementById("divvA");
+    divA.classList.add("hide"); //adiciona a classe hide q faz esconder
+
+    var div1 = document.getElementById("divv");
+    div1.classList.remove("hide"); //removeu a classe hide, aparecendo
+} 
+
 const verificar = function (alternativa) {
 
     var div1 = document.getElementById("divv");
@@ -114,5 +123,5 @@ const verificar4 = function (alternativa) {
         window.location.href="gameover.html"
     }
 
-    window.location.href='./fase2.html'
+    window.location.href='./fase3.html'
 }
