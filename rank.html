@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo.png"/>
+    <title>RANK</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/rank.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="icon" type="image/png" href="img/logo.png"/>
+
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="jogo.html">Jogo</a>
+        <a href="grupo.html">Grupo</a>
+    </div>
+
+    <form>
+
+        <div class="container">
+            <div class="form">
+            <div class="form-group form-titulo">
+                <h1>Pontuações</h1>
+            </div>
+
+            <div class="form-group">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Pontuação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela">
+                    
+                    </tbody>
+
+                    <br><br>
+
+                    <button type="button" value="pontuacao" id="submitButton" onclick="teste()">Pontuação</button>
+
+                </table>
+            </div>
+        </div>
+        </div>
+
+    </form>
+    <script src="./js/scriptPontuacao.js"></script>
+</body>
+</html>

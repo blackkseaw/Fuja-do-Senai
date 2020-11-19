@@ -1,6 +1,6 @@
-var resposta = document.getElementById('pts');
+var resposta = 0;
 
-var vidas = document.getElementById('vida');
+var vidas = 2;
 
 function funfa(){
 

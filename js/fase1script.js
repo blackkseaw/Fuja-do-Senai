@@ -1,15 +1,15 @@
 var resposta = 0;
 
-var vidas = 3;
+var vidas = 2;
 
-function funfa(){
+function funfa() {
 
     var divA = document.getElementById("divvA");
     divA.classList.add("hide"); //adiciona a classe hide q faz esconder
 
     var div1 = document.getElementById("divv");
     div1.classList.remove("hide"); //removeu a classe hide, aparecendo
-} 
+}
 
 const verificar = function (alternativa) {
 
@@ -32,11 +32,11 @@ const verificar = function (alternativa) {
             break;
     }
 
-    document.getElementById("pts").value = resposta
+    document.getElementById("pts1").value = resposta
     document.getElementById("vida").value = vidas
 
-    if(vidas == 0){
-        window.location.href="gameover.html"
+    if (vidas == 0) {
+        window.location.href = "gameover.html"
     }
 }
 
@@ -61,11 +61,11 @@ const verificar2 = function (alternativa) {
             break;
     }
 
-    document.getElementById("pts").value = resposta
+    document.getElementById("pts1").value = resposta
     document.getElementById("vida").value = vidas
 
-    if(vidas == 0){
-        window.location.href="gameover.html"
+    if (vidas == 0) {
+        window.location.href = "gameover.html"
     }
 }
 
@@ -89,11 +89,11 @@ const verificar3 = function (alternativa) {
             break;
     }
 
-    document.getElementById("pts").value = resposta
+    document.getElementById("pts1").value = resposta
     document.getElementById("vida").value = vidas
 
-    if(vidas == 0){
-        window.location.href="gameover.html"
+    if (vidas == 0) {
+        window.location.href = "gameover.html"
     }
 }
 
@@ -119,14 +119,13 @@ const verificar4 = function (alternativa) {
             break;
     }
 
-    document.getElementById("pts").value = resposta
+    document.getElementById("pts1").value = resposta
     document.getElementById("vida").value = vidas
 
     if (vidas == 0) {
-        window.location.href="gameover.html"
+        window.location.href = "gameover.html"
     }
 
-    window.location.href='./fase2.html'
 }
 
 const verificar5 = function (alternativa) {
@@ -150,14 +149,16 @@ const verificar5 = function (alternativa) {
             break;
     }
 
-    document.getElementById("pts").value = resposta
+    document.getElementById("pts1").value = resposta
     document.getElementById("vida").value = vidas
 
-    if (vidas == 0) {
-        window.location.href="gameover.html"
-    }
+    
 
-    window.location.href='./fase2.html'
+    if (vidas == 0) {
+        window.location.href = "gameover.html"
+    }
+    window.location.href = './fase2.html'
 }
 
-
+let pts1 = sessionStorage.getItem('pts1')
+    alert("soma pontos fase1" + pts1)

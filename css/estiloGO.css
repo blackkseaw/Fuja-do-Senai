@@ -14,12 +14,13 @@ body{
 
 .form{
     margin: auto;
-    border: 2px solid #994115;
+    border: 2px solid #08141e;
     border-radius: 10px;
-    background: #f66318;
+    background: #997577;
     width: 50%;
     padding: 20px;
     color: #f6d6bd;
+    align-items: center
 }
 
 h4{
@@ -28,9 +29,9 @@ h4{
 }
 
 .form-titulo {
-    background-color: #994115;
+    background-color: #08141e;
     border-radius: 10px;
-    color: #e9e9e9;
+    color: #f6d6bd;
     font-weight: bold;
     padding: 8px;
     text-align: center;
