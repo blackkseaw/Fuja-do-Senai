@@ -1,5 +1,5 @@
 body{
-    background-color: #ff9c63;
+    background-color: #0f2a3f;
 }
 
 .container{
@@ -19,11 +19,12 @@ body{
     background: #f66318;
     width: 50%;
     padding: 20px;
-    color: #e9e9e9;
+    color: #f6d6bd;
 }
 
 h4{
     text-align: center;
+    color: #f6d6bd;
 }
 
 .form-titulo {

@@ -1,0 +1,31 @@
+.intro {
+    width: 80vw;
+    height: 40vh;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+.titulo-principal{
+    text-align: center;
+    margin-left: 30px;
+    font-family: 'pixel';
+    color: #f6d6bd;
+}
+.titulo-principal:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: piscar .8s infinite;
+}
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes piscar{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}

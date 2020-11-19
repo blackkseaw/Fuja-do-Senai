@@ -1,0 +1,207 @@
+    body{
+        background-color: #0f2a3f;
+        }
+
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+   }
+
+
+  #ANNA, #GREG, #LAURA, #MARCIA, #SANTI {
+    align-items: center;
+    text-align: center;
+    width: 340px;
+    height: 650px;
+    margin: auto;
+    overflow: hidden;
+    transition: opacity 1s;
+  }
+
+   .anna {
+        background-image: url('../img/cartaAnna.png');
+        background-repeat: no-repeat;
+        background-size: 340px, 460px;
+        width: 340px;
+        height: 550px;
+        margin: auto;
+        text-align: center;
+        position: relative;
+    }
+
+  .greg {
+    background-image: url('../img/cartaGreg.png');
+    background-repeat: no-repeat;
+    background-size: 340px, 460px;
+    width: 340px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .laura {
+    background-image: url('../img/cartaLaura.png');
+    background-repeat: no-repeat;
+    background-size: 340px, 460px;
+    width: 340px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .marcia {
+    background-image: url('../img/cartaMarcia.png');
+    background-repeat: no-repeat;
+    background-size: 340px, 460px;
+    width: 340px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .santi {
+    background-image: url('../img/cartaSanti.png');
+    background-repeat: no-repeat;
+    background-size: 340px, 460px;
+    width: 340px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .hide {
+    max-height: 0;
+    pointer-events: none; 
+  }
+
+  .gg-push-chevron-left-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid  #f6d6bd;
+    border-radius: 100px
+}
+.gg-push-chevron-left-o::after,
+.gg-push-chevron-left-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 2px;
+    height: 8px;
+    border-left: 2px solid #f6d6bd;
+    top: 5px;
+    left: 5px
+}
+.gg-push-chevron-left-o::after {
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid  #f6d6bd;
+    transform: rotate(45deg);
+    left: 9px;
+    top: 6px
+}
+
+.gg-push-chevron-right-o {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 22px;
+  height: 22px;
+  border: 2px solid  #f6d6bd;
+  border-radius: 100px
+}
+.gg-push-chevron-right-o::after,
+.gg-push-chevron-right-o::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  border-right: 2px solid  #f6d6bd;
+  top: 5px;
+  right: 5px
+}
+.gg-push-chevron-right-o::after {
+  width: 6px;
+  height: 6px;
+  border-bottom: 2px solid  #f6d6bd;
+  transform: rotate(-45deg);
+  right: 9px;
+  top: 6px
+}
+
+    .cards {
+        margin-top: 2%;
+        position: relative;
+        float: right;
+        margin-right: 10%;
+    }
+
+    .info {
+        width: 45vw;
+        position: relative;
+        text-align: justify;
+        margin-top: 5%;
+        float: left;
+        margin-left: 10%;
+    }
+
+.titulo-principal{
+    text-align: center;
+    margin: 60px auto;
+    font-family: 'pixel';
+    color: #f6d6bd;
+}
+.titulo-principal:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: piscar .8s infinite;
+}
+
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes piscar{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .info {
+    width: 80vw;
+    height: 30vh;
+  }
+  label{
+    font-size: 20px;
+  }
+
+  button {
+    margin: auto;
+  }
+
+  .cards {
+    margin-top: 15%;
+    margin-right: 25%;
+  }
+
+  #ANNA, #GREG, #LAURA, #MARCIA, #SANTI {
+    width: 240px;
+    height: 650px;
+  }
+
+  .anna, .greg, .laura, .marcia, .santi{
+    background-size: 240px, 360px;
+    height: 400px;
+  }
+}

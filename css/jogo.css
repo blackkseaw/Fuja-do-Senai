@@ -2,15 +2,22 @@
     background-color: transparent;
     border: none;
     outline: none;
+    margin-left: 0%;
   }
+
+  html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
   
   body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgb(255,234,102);
-    background: radial-gradient(circle, rgba(255,234,102,1) 0%, rgba(255,124,96,1) 100%);
-}
+    background-color: #0f2a3f;
+    color: #f6d6bd;
+  }
 
 .jesus {
   margin-top: 10%;

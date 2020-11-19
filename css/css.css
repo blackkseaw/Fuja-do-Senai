@@ -1,0 +1,65 @@
+*
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+  
+  body {
+    margin: 0;
+    font-family: "pixel";
+    font-weight: bold;
+    background-color: #0f2a3f;
+    color: #f6d6bd;
+  }
+
+  @font-face{
+    font-family:"pixel";
+    src: url("./free_pixel/FreePixel.ttf");
+    }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #08141e;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f6d6bd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #997577;
+    color: #f6d6bd;
+  }
+  
+  .topnav a.active {
+    background-color: #816271;
+    font-weight: bold;
+    color: #f6d6bd;
+  }
+
+  p {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+  }
+
+  label {
+    padding: 10vh;
+    text-align: justify;
+    font-size: 1.7vw;
+  }
+
+  ::selection {
+    background: #f6d6bd;
+    color: #08141e;
+  }
+
+
