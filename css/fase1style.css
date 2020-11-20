@@ -24,7 +24,7 @@ input {
     color: #222222;
 }
 
-div#divvA, div#divv, div#divv2, div#divv3, div#divv4, div#divv5 {
+div#divvA, div#divv, div#divv2, div#divv3, div#divv4, div#divv5, div#divvB {
     background-color: #816271;
     overflow: hidden;
     height: 35vh;
@@ -48,7 +48,6 @@ button {
     padding: 5px;
     margin: 10px auto;
     width: 30%;
-    display: block;
     font-family: "pixel";
     font-weight: bold;
     font-size: 2em;

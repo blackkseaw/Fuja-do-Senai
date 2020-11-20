@@ -21,7 +21,7 @@ const verificar = function (alternativa) {
 
     switch (alternativa) {
         case 'certo':
-            resposta++
+            resposta = resposta + 5
             console.log('Somou 1')
             break;
 
@@ -50,7 +50,7 @@ const verificar2 = function (alternativa) {
 
     switch (alternativa) {
         case 'certo':
-            resposta++
+            resposta = resposta + 5
             console.log('Somou 1')
             break;
 
@@ -78,7 +78,7 @@ const verificar3 = function (alternativa) {
 
     switch (alternativa) {
         case 'certo':
-            resposta++
+            resposta = resposta + 5
             console.log('Somou 1')
             break;
 
@@ -103,9 +103,12 @@ const verificar4 = function (alternativa) {
     var div4 = document.getElementById("divv4");
     div4.classList.add("hide"); //adicionou a classe hide, escondendoo
 
+    var div5 = document.getElementById("divv5");
+    div5.classList.remove("hide"); //removeu a classe hide, aparecendo
+
     switch (alternativa) {
         case 'certo':
-            resposta++
+            resposta = resposta + 5
             console.log('Somou 1')
             break;
 
@@ -131,7 +134,7 @@ const verificar5 = function (alternativa) {
 
     switch (alternativa) {
         case 'certo':
-            resposta++
+            resposta = resposta + 5
             console.log('Somou 1')
             break;
 
@@ -142,7 +145,7 @@ const verificar5 = function (alternativa) {
             break;
     }
 
-    document.getElementById("pts1").value = resposta
+    document.getElementById("pts").value = resposta
     document.getElementById("vida").value = vidas
 
     
@@ -150,5 +153,8 @@ const verificar5 = function (alternativa) {
     if (vidas == 0) {
         window.location.href = "gameover.html"
     }
-    window.location.href='./win.html'
 }
+
+function sai(){
+    window.location.href='./win.html'
+} 

@@ -154,5 +154,8 @@ const verificar5 = function (alternativa) {
     if (vidas == 0) {
         window.location.href = "gameover.html"
     }
-    window.location.href = './fase2.html'
 }
+
+function sai(){
+    window.location.href = './fase2.html'
+} 
