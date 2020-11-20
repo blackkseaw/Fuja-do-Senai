@@ -6,7 +6,6 @@
     margin-top: 5%;
 }
 
-
 .titulo-principal{
     text-align: center;
     margin-left: 30px;
@@ -28,4 +27,11 @@
     50%{
         opacity: 0;
     }
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
