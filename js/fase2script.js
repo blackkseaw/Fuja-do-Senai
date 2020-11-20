@@ -123,5 +123,33 @@ const verificar4 = function (alternativa) {
         window.location.href="gameover.html"
     }
 
-    window.location.href='./fase3.html'
+}
+
+const verificar5 = function (alternativa) {
+
+    var div5 = document.getElementById("divv5");
+    div5.classList.add("hide"); //adicionou a classe hide, escondendo
+
+    switch (alternativa) {
+        case 'certo':
+            resposta++
+            console.log('Somou 1')
+            break;
+
+        default:
+            resposta = resposta + 0
+            vidas--
+            console.log('somou 0')
+            break;
+    }
+
+    document.getElementById("pts1").value = resposta
+    document.getElementById("vida").value = vidas
+
+    
+
+    if (vidas == 0) {
+        window.location.href = "gameover.html"
+    }
+    window.location.href = './fase3.html'
 }
