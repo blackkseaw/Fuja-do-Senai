@@ -134,7 +134,7 @@ const verificar5 = function (alternativa) {
 
     switch (alternativa) {
         case 'certo':
-            resposta + 5
+            resposta = resposta + 5
             console.log('Somou 5')
             break;
 

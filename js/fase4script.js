@@ -22,7 +22,7 @@ const verificar = function (alternativa) {
     switch (alternativa) {
         case 'certo':
             resposta = resposta + 5
-            console.log('Somou 1')
+            console.log('Somou 5')
             break;
 
         default:
@@ -51,7 +51,7 @@ const verificar2 = function (alternativa) {
     switch (alternativa) {
         case 'certo':
             resposta = resposta + 5
-            console.log('Somou 1')
+            console.log('Somou 5')
             break;
 
         default:
@@ -79,7 +79,7 @@ const verificar3 = function (alternativa) {
     switch (alternativa) {
         case 'certo':
             resposta = resposta + 5
-            console.log('Somou 1')
+            console.log('Somou 5')
             break;
 
         default:
@@ -109,7 +109,7 @@ const verificar4 = function (alternativa) {
     switch (alternativa) {
         case 'certo':
             resposta = resposta + 5
-            console.log('Somou 1')
+            console.log('Somou 5')
             break;
 
         default:
@@ -135,7 +135,7 @@ const verificar5 = function (alternativa) {
     switch (alternativa) {
         case 'certo':
             resposta = resposta + 5
-            console.log('Somou 1')
+            console.log('Somou 5')
             break;
 
         default:
