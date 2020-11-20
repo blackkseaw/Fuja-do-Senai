@@ -123,5 +123,5 @@ const verificar4 = function (alternativa) {
         window.location.href="gameover.html"
     }
 
-    window.location.href='./fase4.html'
+    window.location.href='./win.html'
 }
